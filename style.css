@@ -1,3 +1,41 @@
 *{
-    background:linear-gradient(to right,);
+    padding: 0%;
+    margin: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width:500px;
+    height:max-content;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+
+}
+
+input{
+    width: 10rem;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+
+}
+p{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
 }

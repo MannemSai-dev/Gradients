@@ -1,7 +1,6 @@
 var color1 = document.getElementById("color1")
 var color2 = document.getElementById("color2")
 var bg = document.getElementById("bg")
-let genButton = document.querySelector("#generate")
 let text = document.getElementById("text")
 
 function updateBackground() {
